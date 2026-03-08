@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Minh Phúc Đẹp Trai</title>
+
+<style>
+
+body{
+background:black;
+height:100vh;
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* chữ chính */
+
+h1{
+color:#ff0000;
+font-size:90px;
+font-family:Arial, sans-serif;
+position:absolute;
+
+text-shadow:
+0 0 5px red,
+0 0 10px red,
+0 0 20px red,
+0 0 40px red,
+0 0 80px red;
+
+animation:
+blink 1.5s infinite,
+fly 10s linear infinite;
+}
+
+/* nhấp nháy nhẹ */
+
+@keyframes blink{
+0%,100%{opacity:1;}
+50%{opacity:0.6;}
+}
+
+/* bay quanh màn hình */
+
+@keyframes fly{
+0%{transform:translate(-250px,-150px);}
+25%{transform:translate(250px,-150px);}
+50%{transform:translate(250px,150px);}
+75%{transform:translate(-250px,150px);}
+100%{transform:translate(-250px,-150px);}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Minh Phúc Đẹp Trai</h1>
+
+</body>
+</html>
